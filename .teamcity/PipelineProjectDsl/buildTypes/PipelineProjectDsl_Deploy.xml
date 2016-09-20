@@ -7,11 +7,11 @@
       <option name="buildNumberPattern" value="%build.counter% (%dep.PipelineProjectDsl_Package.build.number%)" />
     </options>
     <parameters>
-      <param name="password" value="zxx775d03cbe80d301b" spec="password display='prompt' label='Deployment password'" />
+      <param name="password" value="zxx775d03cbe80d301b" spec="password label='Deployment password' display='prompt'" />
       <param name="teamcity.ui.runButton.caption" value="Deploy" />
     </parameters>
     <build-runners>
-      <runner id="RUNNER_12" name="" type="simpleRunner">
+      <runner id="RUNNER_1" name="" type="simpleRunner">
         <parameters>
           <param name="script.content" value="echo &quot;##teamcity[buildStatus text='Successfully deployed']&quot;" />
           <param name="teamcity.step.mode" value="default" />

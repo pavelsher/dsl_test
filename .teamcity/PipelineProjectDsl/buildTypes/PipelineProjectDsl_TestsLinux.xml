@@ -5,7 +5,7 @@
   <settings>
     <parameters />
     <build-runners>
-      <runner id="RUNNER_10" name="" type="simpleRunner">
+      <runner id="RUNNER_1" name="" type="simpleRunner">
         <parameters>
           <param name="script.content"><![CDATA[echo "##teamcity[testStarted name='test1']"
 echo "##teamcity[testFinished name='test1']"
