@@ -3,9 +3,6 @@
   <name>Compile</name>
   <description />
   <settings>
-    <options>
-      <option name="artifactRules" value="**/*.jar" />
-    </options>
     <parameters />
     <build-runners />
     <vcs-settings />
