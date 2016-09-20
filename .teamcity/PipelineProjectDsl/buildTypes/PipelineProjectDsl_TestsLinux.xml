@@ -23,12 +23,6 @@ echo "##teamcity[testFinished name='test4']"]]></param>
     <vcs-settings />
     <requirements />
     <build-triggers />
-    <artifact-dependencies>
-      <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="PipelineProjectDsl_Compile" cleanDestination="false">
-        <revisionRule name="sameChainOrLastFinished" revision="latest.sameChainOrLastFinished" />
-        <artifact sourcePath="**/*.jar =&gt; target" />
-      </dependency>
-    </artifact-dependencies>
     <dependencies>
       <depend-on sourceBuildTypeId="PipelineProjectDsl_Compile">
         <options>
